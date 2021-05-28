@@ -65,6 +65,7 @@ html {
 .submit-contact .btn-border,
 .projects .btn-border {
   background-color: transparent;
+  min-width: min-content;
   width: 100%;
   margin-top: 40px;
   color: white;
@@ -306,6 +307,7 @@ textarea {
   -o-transition: all 200ms ease-out;
   -ms-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
+  max-width: 40px;
 }
 
 .footer img:hover {
