@@ -307,7 +307,6 @@ textarea {
   -o-transition: all 200ms ease-out;
   -ms-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
-  max-width: 40px;
 }
 
 .footer img:hover {
