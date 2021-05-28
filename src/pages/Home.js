@@ -1,9 +1,9 @@
 import React from "react";
-import About from "./About";
-import Contact from "./Contact";
-import Main from "./Main";
-import Projects from "./Projects";
-import Summary from "./Summary";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Main from "../components/Main";
+import Projects from "../components/Projects";
+import Summary from "../components/Summary";
 
 const Home = () => {
   return (

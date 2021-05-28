@@ -1,6 +1,10 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import { projects } from "../util/index";
 const Projects = () => {
+  useEffect(() => {
+    projects();
+  }, []);
+
   return (
     <div class="projects" id="projects">
       <div class="container-fluid">
