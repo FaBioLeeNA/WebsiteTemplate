@@ -2,27 +2,27 @@ import React from "react";
 
 const about = () => {
   return (
-    <div class="about" id="about">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 text-center">
-            <div class="about-header">
+    <div className="about" id="about">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-12 col-md-12 text-center">
+            <div className="about-header">
               <h1>About Me</h1>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-sm-12 col-md-12 text-center">
-            <div class="about-header-quote">
+        <div className="row">
+          <div className="col-sm-12 col-md-12 text-center">
+            <div className="about-header-quote">
               <h3>Sharing a little bit of my story...</h3>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="about-general-description ">
-            <div class="col-sm-8 col-md-8 ">
+        <div className="row">
+          <div className="about-general-description ">
+            <div className="col-sm-8 col-md-8 ">
               <h2>General Overview</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -40,10 +40,10 @@ const about = () => {
           </div>
         </div>
 
-        <div class="row">
-          <div class="statistic-row">
-            <div class="about-statistic-description">
-              <div class="col-sm-8 col-md-8">
+        <div className="row">
+          <div className="statistic-row">
+            <div className="about-statistic-description">
+              <div className="col-sm-8 col-md-8">
                 <h2>Statistics</h2>
                 <h5>
                   <em>And for those that don't fancy reading:</em>
@@ -59,10 +59,10 @@ const about = () => {
           </div>
         </div>
 
-        <div class="row">
-          <div class="about-option-buttons">
-            <div class="col-sm-2 col-md-2">
-              <a href="#contact" class="btn btn-default btn-black-border">
+        <div className="row">
+          <div className="about-option-buttons">
+            <div className="col-sm-2 col-md-2">
+              <a href="#contact" className="btn btn-default btn-black-border">
                 Contact
               </a>
             </div>
