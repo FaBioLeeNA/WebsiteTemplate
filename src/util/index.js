@@ -1,15 +1,11 @@
 import $ from "jquery";
 
 export function navigation() {
-  $(".primary-nav").css("height", $(".logo").height());
-  $(".primary-nav li").css(
-    "margin-top",
-    ($(".primary-nav").height() - $(".primary-nav li").height()) / 2 + "px"
-  );
-
-  $(window).resize(function () {
-    setTimeout(navigation, 500);
-  });
+  const logo = $(".logo");
+  const pNav = $(".primary-nav");
+  const li = $(".primary-nav li");
+  pNav.css("height", logo.height());
+  li.css("margin-top", (pNav.height() - li.height()) / 2 + "px");
 }
 
 export function projects() {
@@ -40,9 +36,9 @@ export function projects() {
       $(".strike-zone-project .row").outerHeight()) /
       2
   );
-  var doit;
-  $(window).resize(function () {
-    clearTimeout(doit);
-    doit = setTimeout(projects, 500);
-  });
+  // var doit;
+  // $(window).resize(function () {
+  //   clearTimeout(doit);
+  //   doit = setTimeout(projects, 500);
+  // });
 }

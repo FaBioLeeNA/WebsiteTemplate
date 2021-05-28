@@ -6,7 +6,6 @@ import { navigation } from "../util/index";
 const NavBar = () => {
   useEffect(() => {
     navigation();
-    console.log("mounted");
   }, []);
 
   return (
