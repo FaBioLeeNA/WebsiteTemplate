@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
             users
           </Route>
           <Route exact path="/">
-            home
+            <Home></Home>
           </Route>
         </Switch>
       </div>
