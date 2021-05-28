@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import HomePage from "./pages/HomePage";
+import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,10 +14,10 @@ function App() {
             about
           </Route>
           <Route exact path="/contact">
-            users
+            <ContactPage></ContactPage>
           </Route>
           <Route exact path="/">
-            <Home></Home>
+            <HomePage></HomePage>
           </Route>
         </Switch>
       </div>

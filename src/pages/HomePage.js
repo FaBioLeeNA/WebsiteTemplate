@@ -5,7 +5,7 @@ import Main from "../components/Main";
 import Projects from "../components/Projects";
 import Summary from "../components/Summary";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <Main></Main>
@@ -17,4 +17,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
